@@ -1,0 +1,75 @@
+nav {
+    padding: 0px 20px;
+    box-shadow: 0px 0px 10px #084098;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navButton {
+    display: flex;
+}
+
+#accountHeading {
+    font-family: 'Bungee', cursive;
+    color: white;
+    margin: 0;
+    text-shadow: 0px 0px 10px #084098;
+    box-shadow: 1px 1px 10px #084098;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#fileLink {
+    all: unset;
+    color: white;
+    font-size: 25px;
+    font-family: 'Bungee', cursive;
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    box-shadow: 1px 1px 10px #084098;
+    text-shadow: 0px 0px 10px #084098;
+    height: 50px;
+    padding: 0px 10px;
+}
+
+#aboutFileLink {
+    all: unset;
+    color: white;
+    font-size: 25px;
+    font-family: 'Bungee', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+    box-shadow: 1px 1px 10px #084098;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#aboutFileLink img {
+    width: 45px;
+    height: 45px;
+}
+
+#fileLink:hover {
+    cursor: pointer;
+}
+
+#aboutFileLink:hover {
+    cursor: pointer;
+}
+
+#fileLink img {
+    width: 45px;
+    height: 45px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}

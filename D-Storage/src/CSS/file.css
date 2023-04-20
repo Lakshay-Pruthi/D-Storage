@@ -1,0 +1,23 @@
+.fileShareInput {
+    display: flex;
+    padding: 0px 20px;
+}
+
+.fileShareInput button {
+    width: 30%;
+    height: 52px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.fileShareInput input {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 0px;
+    width: 50%;
+    border: 1px solid white;
+}
+
+#shareButton {
+    border-radius: 0px;
+}
